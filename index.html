@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://pagecdn.io/lib/normalize/8.0.1/normalize.min.css" rel="stylesheet" crossorigin="anonymous"  >
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Block element Modifier  -->
+  <div class="app">
+      <div class="grid grid-2">
+          <header class="header">
+              <nav class="header__navbar">
+                  <ul class="header__navbar-list">
+                      <li class="header__navbar-item header__navbar-item--has-qr  header__navbar-item-separate">
+                          Vào cửa hàng ứng dụng Fashion
+                        <div class="header__qr">
+                            <img src="./assets/img/qr_code.png" alt="QR_Code" class="header__qr-img">
+                            <div class="header__qr-apps">
+                                <a href="" class="header__qr-link"><img src="./assets/img/appstore.png" alt="APPStore" class="header__qr-dowload-img"></a>
+                                <a href="" class="header__qr-link"><img src="./assets/img/google_play.png" alt="google_play" class="header__qr-dowload-img"></a>
+                            </div>
+                        </div>
+                      </li>
+                      <li class="header__navbar-item"><span class="header__navbar-title--no-pointer">Kết nối</span>
+                          <a href="" class="header__navbar-icon-link"><i class="header__navbar-icon fab fa-facebook"></i></a>
+                          <a href="" class="header__navbar-icon-link"><i class="header__navbar-icon fab fa-instagram"></i></a>
+                    </li>
+                  </ul>
+                  <ul class="header__navbar-list">
+                      <li class="header__navbar-item header__navbar-item--has-notify">
+                          <a href="" class="header__navbar-item-link">
+                              <i class="header__navbar-icon fas fa-bell"></i> 
+                              Thông báo</a>
+                                <div class="header__notify">
+                                    <header class="header__notify-header">
+                                        <h3>Thông báo mới nhận</h3>
+                                    </header>
+                                    <ul class="header__notify-list ">
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a class="header__notify-link" href="">
+                                                <img src="https://th.bing.com/th/id/OIP.y66AyBbuCvKDQEbk4AhiPQHaHY?pid=ImgDet&rs=1" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                  <span class="header__notify-name"> Mỹ phẩm Ohui chính hãng</span>
+                                                 <span class="header__notify-discription">Mỹ phẩm Ohui chính hãng</span>
+                                                </div>
+                                             </a>
+                                        </li>
+
+                                        <li class="header__notify-item">
+                                            <a class="header__notify-link" href="">
+                                                <img src="https://th.bing.com/th/id/OIP.y66AyBbuCvKDQEbk4AhiPQHaHY?pid=ImgDet&rs=1" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                  <span class="header__notify-name"> Mỹ phẩm Ohui chính hãng được yêu thích tại Vietnamese</span>
+                                                 <span class="header__notify-discription">là sản phẩm được làm ra với chất liệu tự nhiên , lành tính , giúp trẻ hóa phục hồi hư tổn</span>
+                                                </div>
+                                             </a>
+                                        </li>
+
+                                        <li class="header__notify-item">
+                                            <a class="header__notify-link" href="">
+                                                <img src="https://th.bing.com/th/id/OIP.y66AyBbuCvKDQEbk4AhiPQHaHY?pid=ImgDet&rs=1" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                  <span class="header__notify-name"> Mỹ phẩm Ohui chính hãng</span>
+                                                 <span class="header__notify-discription">Mỹ phẩm Ohui chính hãng</span>
+                                                </div>
+                                             </a>
+                                        </li>
+                                    </ul>
+                                    <footer class="header__notify-footer">
+                                        <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                    </footer>
+                                </div>
+                      </li>
+                      <li class="header__navbar-item">
+                          <a href="" class="header__navbar-item-link"><i class="header__navbar-icon far fa-question-circle"></i>Trợ giúp</a>
+                      </li>
+                      <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item-separate">Đăng Ký</li>
+                      <li class="header__navbar-item header__navbar-item--strong">Đăng Nhập</li> -->
+
+                      <li class="header__navbar-item header__navbar-user">
+                          <img class="header__navbar-item-img" src="https://cdn0.iconfinder.com/data/icons/users-16/16/person_simple-512.png" alt="" class="header__navbar-user-img">
+                          <span class="header_navbar-user-name">Quốc Đô</span>
+                          <ul class="header__navbar-user-menu">
+                              <li class="header__navbar-user-item">
+                                  <a href="">Tài khoản của tôi</a>
+                              </li>
+                              <li class="header__navbar-user-item">
+                                <a href="">Địa chỉ của tôi</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Đơn mua </a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Đăng xuất</a>
+                            </li>
+                          </ul>
+                      </li>
+                  </ul>
+              </nav>
+            <!-- header Search -->
+            <div class="header-with-search">
+                <div class="header__logo">
+                    𝖋𝖆𝖘𝖍𝖎𝖔𝖓
+                </div>
+                <!-- search -->
+                <div class="header__search">
+                    <div class="header__search-input-wrap">
+                        <input type="text" class=" header__search-input" placeholder="Siêu sale thương hiệu">
+
+                        <div class="header__search-history">
+                            <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+
+                            <ul class="header__search-history-list">
+                                <li class="header__search-history-item">
+                                    <a href="">áo thun nam</a>
+                                </li>
+                            </ul>
+
+                            <ul class="header__search-history-list">
+                                <li class="header__search-history-item">
+                                    <a href="">áo phông</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                        <!-- <div class="header__search-select">
+                            <span class="header__search-select-label">Trong shop</span>
+                            <i class="header__search-select-icon fas fa-chevron-down"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div> -->
+
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>    
+                </div>
+                <!-- cart layout -->
+                <div class="header__cart">
+                    <i class="header__cart-icon fas fa-shopping-cart"></i>
+
+                    <div class="header__cart-list header__cart-list--no-cart">
+                        <img src="./assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                        <span class="header__cart-no-cart-msg">
+                             Chưa có sản phẩm
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+          </header>
+      </div>
+
+        <div class="app__container">
+           <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="catelogy">
+                        <h3 class="catelogy__heading">
+                            <i class="fas fa-list catelogy__heading-icon"></i>
+                            Danh mục  
+                        </h3>
+                        <ul class="catelogy-list">
+                            <li class="catelogy-item">
+                                <a href="#" class="catelofy-item__link catelofy-item__active">Trang điểm mặt </a>
+                            </li>
+                            <li class="catelogy-item">
+                                <a href="#" class="catelofy-item__link">Trang điểm môi </a>
+                            </li>
+                            <li class="catelogy-item">
+                                <a href="#" class="catelofy-item__link">Trang điểm mắt </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    </div>
+
+                    <div class="grid__column-10"> 
+                        <div class="home-filrer">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+
+                            <div class="seclect-input">
+                                <span class="seclect-input__label">Giá</span>
+                                <i class="fas fa-chevron-down"></i>
+                                <ul class="seclect-input__list">
+                                    <li class="seclect-input__item"><a href="">Giá : Thấp đến Cao</a></li>
+                                    <li class="seclect-input__item"><a href="">Giá : Cao đến Thấp</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/14
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn-disable">
+                                        <i class="fas fa-chevron-left"></i>                                       
+                                   </a>
+                                   
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="fas fa-chevron-right"></i>                                       
+                                   </a>                    
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <div class="home__product">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img" style="background-image: url(https://cf.shopee.vn/file/0934a06da7e7b3bbfc819f96ef72017c_tn);"></div>
+                                        <h4 class="home__product-item__name">Set dưỡng trắng da Whoo đông y hoàng cung Gong Ying Yang</h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">1.100.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+
+                                            <div class="home__product-item__rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Whoo</span>
+                                            <span class="home__product-item__origin-name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home__product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img" style="background-image: url(https://cf.shopee.vn/file/0934a06da7e7b3bbfc819f96ef72017c_tn);"></div>
+                                        <h4 class="home__product-item__name">Set dưỡng trắng da Whoo đông y hoàng cung Gong Ying Yang</h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">1.100.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+
+                                            <div class="home__product-item__rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Whoo</span>
+                                            <span class="home__product-item__origin-name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home__product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img" style="background-image: url(https://cf.shopee.vn/file/0934a06da7e7b3bbfc819f96ef72017c_tn);"></div>
+                                        <h4 class="home__product-item__name">Set dưỡng trắng da Whoo đông y hoàng cung Gong Ying Yang</h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">1.100.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+
+                                            <div class="home__product-item__rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Whoo</span>
+                                            <span class="home__product-item__origin-name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home__product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img" style="background-image: url(https://cf.shopee.vn/file/0934a06da7e7b3bbfc819f96ef72017c_tn);"></div>
+                                        <h4 class="home__product-item__name">Set dưỡng trắng da Whoo đông y hoàng cung Gong Ying Yang</h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">1.100.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+
+                                            <div class="home__product-item__rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Whoo</span>
+                                            <span class="home__product-item__origin-name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home__product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img" style="background-image: url(https://cf.shopee.vn/file/0934a06da7e7b3bbfc819f96ef72017c_tn);"></div>
+                                        <h4 class="home__product-item__name">Set dưỡng trắng da Whoo đông y hoàng cung Gong Ying Yang</h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">1.100.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+
+                                            <div class="home__product-item__rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Whoo</span>
+                                            <span class="home__product-item__origin-name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home__product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img" style="background-image: url(https://cf.shopee.vn/file/0934a06da7e7b3bbfc819f96ef72017c_tn);"></div>
+                                        <h4 class="home__product-item__name">Set dưỡng trắng da Whoo đông y hoàng cung Gong Ying Yang</h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">1.100.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+
+                                            <div class="home__product-item__rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Whoo</span>
+                                            <span class="home__product-item__origin-name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home__product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img" style="background-image: url(https://cf.shopee.vn/file/0934a06da7e7b3bbfc819f96ef72017c_tn);"></div>
+                                        <h4 class="home__product-item__name">Set dưỡng trắng da Whoo đông y hoàng cung Gong Ying Yang</h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">1.100.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+
+                                            <div class="home__product-item__rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Whoo</span>
+                                            <span class="home__product-item__origin-name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home__product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img" style="background-image: url(https://cf.shopee.vn/file/0934a06da7e7b3bbfc819f96ef72017c_tn);"></div>
+                                        <h4 class="home__product-item__name">Set dưỡng trắng da Whoo đông y hoàng cung Gong Ying Yang</h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">1.100.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+
+                                            <div class="home__product-item__rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Whoo</span>
+                                            <span class="home__product-item__origin-name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home__product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img" style="background-image: url(https://cf.shopee.vn/file/0934a06da7e7b3bbfc819f96ef72017c_tn);"></div>
+                                        <h4 class="home__product-item__name">Set dưỡng trắng da Whoo đông y hoàng cung Gong Ying Yang</h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">1.100.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+
+                                            <div class="home__product-item__rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Whoo</span>
+                                            <span class="home__product-item__origin-name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home__product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item__img" style="background-image: url(https://cf.shopee.vn/file/0934a06da7e7b3bbfc819f96ef72017c_tn);"></div>
+                                        <h4 class="home__product-item__name">Set dưỡng trắng da Whoo đông y hoàng cung Gong Ying Yang</h4>
+                                        <div class="home__product-item__price">
+                                            <span class="home__product-item__price-old">1.200.000đ</span>
+                                            <span class="home__product-item__price-current">1.100.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like">
+                                                <i class="far fa-heart"></i>
+                                                <!-- <i class="fas fa-heart"></i> -->
+                                            </span>
+
+                                            <div class="home__product-item__rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">Whoo</span>
+                                            <span class="home__product-item__origin-name">Nhật Bản</span>
+                                        </div>
+
+                                        <div class="home__product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">10%</span>
+                                            <span class="home__product-item__sale-off-label">Giảm</span>
+                                        </div>
+                                    </a>
+                                </div>
+                             
+                            </div>
+                        </div>
+
+                        <ul class="pagination home__product-pagination">
+                            <li class="pagination-item ">
+                                <a href="" class="pagination-item__link">
+                                    <i class="fas fa-chevron-left pagination-item__icon"></i>   
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item__active">
+                                <a href="" class="pagination-item__link">
+                                   1
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                   2
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                   3
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                   4
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                   ...
+                                </a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="fas fa-chevron-right pagination-item__icon"></i>   
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+           </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer_heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">F8 shop</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class="footer-item">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer_heading">Giới thiệu</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới thiệu</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điều khoảng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trợ giúp</a>
+                            </li>
+                            <li class="footer-item">
+                            </li>
+                        </ul>
+                    </div>
+               
+                    <div class="grid__column-2-4">
+                        <h3 class="footer_heading">Danh mục</h3>
+                        <ul class="footer__list">
+
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trang điểm mặt</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trang điểm môi</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trang điểm mắt</a>
+                            </li>
+                            <li class="footer-item">
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer_heading">Theo dõi</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-facebook"></i>
+                                    Facebook</a>
+                                </li>
+                                <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-instagram"></i>
+                                    Instagram</a>
+                                </li>
+                                <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-linkedin"></i>
+                                    Linkedin</a>
+                                </li>
+                                <li class="footer-item">
+                            </li>
+                        </ul>
+
+                        
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer_heading">Vào cửa hàng trên ứng dụng</h3>
+                        <div class="footer__dowload">
+                            <img src="http://127.0.0.1:5500/f8-shop/assets/img/qr_code.png" alt="" class="footer__dowload-qr">
+                            <div class="footer__dowload-apps">
+                                <img src="./assets/img/appstore.png" alt="" class="footer__dowload-app-img">
+                                <img src="./assets/img/google_play.png" alt="" class="footer__dowload-app-img">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+  </div>
+
+  <!-- <div class="modal">
+      <div class="modal__overlay"></div> -->
+         <!-- Register -->
+      <!-- <div class="modal__body">
+            <div class="auth-form__container">
+              <div class="auth-form">
+                  <div class="auth-form__header">
+                      <h3 class="auth-form__heading">Đăng Ký</h3>
+                      <span class="auth-form__switch-btn">Đăng Nhập</span>
+                  </div>
+              </div>
+              <div class="auth-form__form">
+                  <div class="auth-form__group">
+                      <input type="text" class="auth-form__input" placeholder="Nhập email">
+                  </div>
+                  <div class="auth-form__group">
+                    <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                </div>
+                <div class="auth-form__group">
+                    <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                </div>
+              </div>
+              <div class="auth-form__aside">
+                  <p class="auth-form__policy-text">Bằng việc đăng kí bạn đồng ý với Shoppe về
+                  <a href="" class="auth-form__text-link">Điều khoản dịch vụ </a>&
+                  <a href="" class="auth-form__text-link">Chính sách bảo mật </a>
+                </p>
+              </div>
+
+              <div class="auth-form__controls">
+                    <button class="btn auth-form__controls-back bnt--normal">TRỞ LẠI</button>
+                    <button class="btn btn--primary">ĐĂNG KÝ</button>
+              </div>
+            </div>
+              <div class="auth-form__socials">
+                <a href="" class="auth-form__socials-facebook  btn btn--size-s btn--with-icon">
+                    <i class="fab auth-form__socials-icon fa-facebook-square"></i>
+                    <span class="auth-form__socials-title">
+                        Kết nối với Facebook
+                    </span>
+                </a>
+                <a href="" class="auth-form__socials-google  btn btn--size-s btn--with-icon">
+                    <i class="fab auth-form__socials-icon fa-google"></i>
+                    <span class="auth-form__socials-title">
+                        Kết nối với Google
+                    </span>
+                </a>
+              </div>
+      </div>  -->
+
+         <!-- Login -->
+      <!-- <div class="modal__body">
+        <div class="auth-form__container">
+          <div class="auth-form">
+              <div class="auth-form__header">
+                  <h3 class="auth-form__heading">Đăng Nhập</h3>
+                  <span class="auth-form__switch-btn">Đăng Ký</span>
+              </div>
+          </div>
+          <div class="auth-form__form">
+              <div class="auth-form__group">
+                  <input type="text" class="auth-form__input" placeholder="Nhập email">
+              </div>
+              <div class="auth-form__group">
+                <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+            </div>
+           
+          </div>
+          <div class="auth-form__aside">
+            <div class="auth-form__help">
+                <a href="" class="auth-form__help-link auth-form__help-forgot ">Quên mật khẩu </a>
+                <span class="auth-form__help-saparate"></span>
+                <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+            </div>
+          </div>
+
+          <div class="auth-form__controls">
+                <button class="btn auth-form__controls-back bnt--normal">TRỞ LẠI</button>
+                <div class="btn btn--primary">ĐĂNG NHẬP</div>
+          </div>
+        </div>
+          <div class="auth-form__socials">
+            <a href="" class="auth-form__socials-facebook  btn btn--size-s btn--with-icon">
+                <i class="fab auth-form__socials-icon fa-facebook-square"></i>
+                <span class="auth-form__socials-title">
+                    Kết nối với Facebook
+                </span>
+            </a>
+            <a href="" class="auth-form__socials-google  btn btn--size-s btn--with-icon">
+                <i class="fab auth-form__socials-icon fa-google"></i>
+                <span class="auth-form__socials-title">
+                    Kết nối với Google
+                </span>
+            </a>
+          </div>
+      </div>  -->
+  </div>
+</body>
+</html>
